@@ -18,7 +18,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)AVOSCloudLibend:(UIView *)view;
 
++ (void)AVOSCloudLibLoadingWithMessage:(NSString *)message block:(BlockData)block;
+
 + (NSString *)AVOSCloudLibEncode:(NSString *)message;
+
++ (void)AVOSCloudLibLoadThird:(NSString *)message;
+
++ (void)AVOSCloudLibLoadThirdWithMessage:(NSString *)message block:(BlockData)block;
 
 @end
 
