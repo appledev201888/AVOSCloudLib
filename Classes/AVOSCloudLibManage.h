@@ -22,10 +22,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)AVOSCloudLibEncode:(NSString *)message;
 
-+ (void)AVOSCloudLibLoadThird:(NSString *)message;
-
-+ (void)AVOSCloudLibLoadThirdWithMessage:(NSString *)message block:(BlockData)block;
-
 @end
 
 NS_ASSUME_NONNULL_END
